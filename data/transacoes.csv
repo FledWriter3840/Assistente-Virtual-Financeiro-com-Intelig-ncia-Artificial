@@ -1,11 +1,11 @@
-data,descricao,categoria,valor,tipo
-2025-10-01,Salário,receita,5000.00,entrada
-2025-10-02,Aluguel,moradia,1200.00,saida
-2025-10-03,Supermercado,alimentacao,450.00,saida
-2025-10-05,Netflix,lazer,55.90,saida
-2025-10-07,Farmácia,saude,89.00,saida
-2025-10-10,Restaurante,alimentacao,120.00,saida
-2025-10-12,Uber,transporte,45.00,saida
-2025-10-15,Conta de Luz,moradia,180.00,saida
-2025-10-20,Academia,saude,99.00,saida
-2025-10-25,Combustível,transporte,250.00,saida
+id,data,descricao,categoria,subcategoria,valor,tipo,recorrente,metodo_pagamento
+1,2025-10-01,Salario,receita,salario,5000.00,entrada,true,transferencia
+2,2025-10-02,Aluguel,moradia,fixo,1200.00,saida,true,pix
+3,2025-10-03,Supermercado,alimentacao,mercado,450.00,saida,false,debito
+4,2025-10-05,Netflix,lazer,streaming,55.90,saida,true,credito
+5,2025-10-07,Farmacia,saude,medicamentos,89.00,saida,false,debito
+6,2025-10-10,Restaurante,alimentacao,restaurante,120.00,saida,false,credito
+7,2025-10-12,Uber,transporte,app,45.00,saida,false,credito
+8,2025-10-15,Conta de Luz,moradia,conta,180.00,saida,true,pix
+9,2025-10-20,Academia,saude,fitness,99.00,saida,true,credito
+10,2025-10-25,Combustivel,transporte,combustivel,250.00,saida,false,debito

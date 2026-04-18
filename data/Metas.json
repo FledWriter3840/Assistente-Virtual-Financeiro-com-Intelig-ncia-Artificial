@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "descricao": "Economizar para viagem",
+    "valor_meta": 2000,
+    "valor_atual": 500,
+    "prazo": "2026-12-01"
+  },
+  {
+    "id": 2,
+    "descricao": "Fundo de emergência",
+    "valor_meta": 5000,
+    "valor_atual": 1200,
+    "prazo": "2027-06-01"
+  }
+]

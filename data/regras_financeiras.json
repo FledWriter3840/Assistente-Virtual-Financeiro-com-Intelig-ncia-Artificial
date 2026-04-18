@@ -1,0 +1,14 @@
+[
+  {
+    "regra": "50-30-20",
+    "descricao": "50% necessidades, 30% desejos, 20% poupança"
+  },
+  {
+    "regra": "limite_alimentacao",
+    "descricao": "Não gastar mais que 30% da renda com alimentação"
+  },
+  {
+    "regra": "reserva_emergencia",
+    "descricao": "Guardar pelo menos 3 a 6 meses de despesas"
+  }
+]
